@@ -16,7 +16,8 @@ In other words, this will get you 95% of the way there, but do you own research 
 
 ## How to run the app
 
-TODO
+- npm i
+- npm start
 
 * [Credits](https://zachgoll.github.io/blog/2019/choosing-authentication-strategy/)
 * [Video](https://www.youtube.com/watch?v=F-sFp_AvHc8&t=6098s)
