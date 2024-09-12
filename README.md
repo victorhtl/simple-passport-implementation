@@ -1,5 +1,10 @@
 # Passport Implementation
-This code shows a simple way of implementing passportjs and session in a express app
+This code shows a simple way of implementing passportjs and session in a express app.
+Mongodb running is required. The DB authentication should be in a .env file like this:
+```
+DB_STRING=mongodb://localhost:27017/test
+SECRET=somesecret
+```
 
 ## Disclaimer
 

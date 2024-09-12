@@ -1,10 +1,7 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const session = require('express-session');
 var passport = require('passport');
-var crypto = require('crypto');
 var routes = require('./routes');
-const connection = require('./config/database');
 
 // Package documentation - https://www.npmjs.com/package/connect-mongo
 const MongoStore = require('connect-mongo');
@@ -30,6 +27,7 @@ const sessionStore = MongoStore.create({
     collectionName: 'sessions',
     autoRemove: 'native',
 })
+
 
 app.use(session({
     secret: process.env.SECRET,
